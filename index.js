@@ -1,7 +1,7 @@
 import "dotenv/config"
 import { say } from 'cowsay';
 
-const Name = process.env.NAME;
-const Campus = process.env.CAMPUS;
+const name = process.env.NAME;
+const campus = process.env.CAMPUS;
 
-console.log(say({ text: `${Name} est en ${Campus}` }));
+console.log(say({ text: `${name} est en ${campus}` }));
